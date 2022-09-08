@@ -12,7 +12,7 @@
     
     
     
-    <title>archive_a | 记录</title>
+    <title>share | 记录</title>
     <link href="http://username.github.io" rel="prefetch" />
 
     
@@ -109,7 +109,7 @@
                 
                 
                 
-                <li class="current">
+                <li class="">
                     <a href="/archives">
                         <i class="fa fa-archive"></i>归档
                     </a>
@@ -152,19 +152,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 gal-right" id="mainstay">
-                    <article class="article well article-body" id="article-archive">
+                    
+<article class="article well article-body" id="article">
     <div class="breadcrumb">
         <i class="fa fa-home"></i>
         <a href="http://username.github.io">记录</a>
         >
-        <span>归档</span>
+        <span>share</span>
     </div>
     <!-- 大型设备详细文章 -->
     <div class="hidden-xs">
         <div class="title-article">
             <h1>
-                <a href="/archives">归档</a>
+                <a href="/2022/09/08/share/">share</a>
             </h1>
+        </div>
+        <div class="tag-article">
+            
+            <span class="label label-gal">
+                <i class="fa fa-calendar"></i> 2022-09-08
+            </span>
+            
         </div>
     </div>
     <!-- 小型设备详细文章 -->
@@ -172,35 +180,80 @@
         <center>
             <div class="title-article">
                 <h4>
-                    <a href="/archives">归档</a>
+                    <a href="/2022/09/08/share/">share</a>
                 </h4>
             </div>
+            <p>
+                <i class="fa fa-calendar"></i> 2022-09-08
+            </p>
+            <p>
+                
+                
+            </p>
         </center>
     </div>
-    <div class="content-article" style="margin-top: 30px;">
-        
-        
-            <h1 style="font-size: 24px; margin-top: 40px;">2022年</h1>
-            
-        <div class="alert alert-info" style="font-size: 14px; line-height: 2; font-weight: bold;">
-            
-             
-             
-                        <a href="/2022/09/08/share/">share</a>
-                        <br>
-            
-             
-                        <a href="/2022/09/08/title/">title</a>
-                        <br>
-            
-             
-                        <a href="/2022/09/08/hello-world/">Hello World</a>
-                        <br>
-            
-                    </div>
-        
+    <div class="content-article">
+        <p>##二.变量</p>
+<p>##1.变量的声明</p>
+<pre><code>  声明：就是事先告诉你
+
+  在使用变量之前要事先通知，事先声明一下！
+
+  注意：在PHP程序里面，使用变量之前是不需要声明的！ 
+
+  变量用于存储   数字，文本字符串或者数组这些数据
+
+ $变量名 = 数据（值）
+
+ =  在数学里面是‘等于’的意思，在我们的程序语言里面，它不是等于号，它是  ‘赋值操作符’
+</code></pre>
+<p>##2.变量的销毁</p>
+<pre><code> unset($变量名称)
+
+ $and1=1;
+
+ unset($and1);//销毁$and1
+
+ echo   $and1;//提示出错，因为变量已经被销毁了
+</code></pre>
+<p>##3.变量的命名规则</p>
+<pre><code> 1) 变量名称严格区分大小写
+
+  $name,$Name,$NAME  都是不同的变量
+
+ 2)字母或者下划线开头
+
+          $a+任意数量的字母数字下划线
+
+          错误的命名方式：
+
+                 $1name       错误点： 以数字开头了
+
+                 $n ame        错误点： 中间有空白字符
+
+          最好不要用一些关键字作为变量名称（因为在其它的编译程序语言里面是不被允许的）
+</code></pre>
+<p>##4.可变变量</p>
+<pre><code>  $abc=&#39;txt&#39;;//定义了一个变量$abc里面存了值txt
+
+  $$abc=&#39;孙胜利’;//就相当于$txt=&#39;孙胜利‘
+
+  echo  $txt
+</code></pre>
+<p>##5.变量的引用赋值</p>
+<pre><code>  $a=1000;
+
+  $b=&amp;$a;//就相当于给$a起了一个别名，操作其中任何一个，都会影响到另外一个变量的值
+
+  $b=20;
+
+  echo  $a;
+</code></pre>
+
     </div>
 </article>
+
+
                 </div>
                 <aside class="col-md-4 gal-left" id="sidebar">
     <!-- 此为sidebar的搜索框, 非搜索结果页面 -->
@@ -319,17 +372,17 @@
 
                 
                 <li>
-                    <a href="/archives/2022/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
+                    <a href="/2022/09/08/share/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
                 </li>
                 
                 
                 <li>
-                    <a href="/archives/2022/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
+                    <a href="/2022/09/08/share/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
                 </li>
                 
                 
                 <li>
-                    <a href="/archives/2022/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
+                    <a href="/2022/09/08/share/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
                 </li>
                 
             </ul>
