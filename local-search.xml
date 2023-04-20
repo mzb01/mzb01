@@ -4,6 +4,32 @@
   
   
   <entry>
+    <title>python爬虫记录</title>
+    <link href="/2023/04/10/python%E7%88%AC%E8%99%AB%E8%AE%B0%E5%BD%95/"/>
+    <url>/2023/04/10/python%E7%88%AC%E8%99%AB%E8%AE%B0%E5%BD%95/</url>
+    
+    <content type="html"><![CDATA[<h2 id="简单记录一下学习的python爬虫知识"><a href="#简单记录一下学习的python爬虫知识" class="headerlink" title="简单记录一下学习的python爬虫知识"></a>简单记录一下学习的python爬虫知识</br></h2></br>### requests库 学习爬虫，需要认识requests库，用来获取网页的一个库，操作如下>import requestsurl = 'http://www.tipdm.com'headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34'}rq = requests.get(url=url, headers=headers)rq.status_code</br><p>其中url里放的是个网址，headers里放的是网页的头部信息，使用requests.get()来获取这个网页</p><blockquote><p>rq.status_code</p></blockquote><p>是用来反应是否链接成功</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>python学习</title>
+    <link href="/2022/09/14/python%E5%AD%A6%E4%B9%A0/"/>
+    <url>/2022/09/14/python%E5%AD%A6%E4%B9%A0/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>简单记录一下python中学习到的知识<br><br>python编译环境为pycharm<br><br>基本运算符&amp;&amp;转义字符</p></blockquote><p><img src="https://i.jpg.dog/1185cabf2fb5ef2e168bd918ee180de3.jpg" alt="1185cabf2fb5ef2e168bd918ee180de3.jpg"><br></p><p><img src="https://i.jpg.dog/e6a21512d58d0ccf347d9620eaf3d104.jpg" alt="e6a21512d58d0ccf347d9620eaf3d104.jpg"><br></p><p><img src="https://i.jpg.dog/a210e8d426726ff4135053c321387741.jpg" alt="a210e8d426726ff4135053c321387741.jpg"><br></p><blockquote></blockquote>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>linux指令2</title>
     <link href="/2022/09/12/linux%E6%8C%87%E4%BB%A42/"/>
     <url>/2022/09/12/linux%E6%8C%87%E4%BB%A42/</url>
